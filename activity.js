@@ -34,14 +34,14 @@ var textInfo = [
 
 
 var captions = [
-    "Snow Land",
-    "Wintery Road",
-    "Snowy Drive",
-    "Winter in the Country",
-    "Winter Road",
-    "Winter Wonderland",
-    "Winter playground",
-    "Winter Bench"
+    "SNOW LAND",
+    "WINTERY ROAD",
+    "SNOWY DRIVE",
+    "WINTER IN THE COUNTRY",
+    "WINTER ROAD",
+    "WINTER WONDERLAND",
+    "WINTER PLAYGROUND",
+    "WINTER BENCH"
 ];
 
 
