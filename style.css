@@ -96,3 +96,83 @@ footer {
     padding-top: 20px;
     color:rgb(211, 218, 240);
 }
+
+#album {
+    position: relative;
+    margin: 30px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 25px;
+}
+
+#album .photo {
+    position: relative;
+    display: block;
+    width: 220px;
+    padding: 0;
+    overflow: visible;
+}
+
+#album .photo img {
+    display: block;
+    width: 220px;
+    height: 132px;
+    object-fit: cover;
+}
+
+#album .caption {
+    display: block;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#album .caption:hover {
+    color: #753a30;
+}
+
+
+#album #infoBox {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    min-height: 230px;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#infoBox h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+#infoBox p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+#infoBox a {
+    color: #ffff00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#infoBox a:hover {
+    text-decoration: underline;
+}

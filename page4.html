@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Third Web Page</title>    
+<title>My Gallery</title>    
 
 <link rel="stylesheet" href="style.css">
 
@@ -25,8 +25,8 @@
 
 <!-- Main Content -->
 <main>
-    <h1>My Fourth Heading</h1>
-    <p>My Fourth paragraph.</p>
+    <h1>My Gallery</h1>
+    <p>Click a description bar on an image to view more information.</p>
 
         <ul id="album">
             <!--<li id="photo"><img src="images/central_park.jpg"></li>
@@ -43,24 +43,7 @@
 
 </div> <!-- End Container -->
 
-<script>
-    var photos = [];
-    var fileNames = [];
-    var imageList = [];
-    var image;
-    var openList = "<li id='photo'>";
-    var closeList = "</li>";
-    
-    //Create a loop to create 6 images starting with index of 0
-    for (var i=0; i<6; i++){
-        fileNames.push("winterland"+(i+1)); //Create image file name and store in the array
-        photos.push("<img src='images/"+fileNames[i]+".jpg'>"); //Assemble file name into image element and store in an array
-        image = openList + photos[i] + closeList; //Assemble image element from array with list elements and store in a variable
-        imageList.push(image);
-    }
-
-    document.getElementById("album").innerHTML = imageList;
-</script>
+<script src="activity.js"></script>
 
 </body>
 </html>
